@@ -1,0 +1,108 @@
+﻿* {
+    font-family: 微软雅黑；;
+}
+
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.current {
+    background: #CCCCCC;
+    color: #0000FF;
+    cursor: pointer;
+}
+ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    text-align: center;
+    /*margin-top:5px;*/
+    float: left;
+    /*margin-top:10px;*/
+}
+
+td {
+    text-align: center;
+    width:auto;
+}
+
+.txtbox {
+    font-weight: bold;
+    color: red;
+}
+
+.th1 {
+    text-align: center;
+}
+
+#danju_no{
+    text-align:center;
+}
+#dakuang {
+    /*border: solid 1px #4cff00;*/
+    height: 850px;
+}
+
+#danju {
+    margin-top: 0px;
+    /*border: solid 2px blue;*/
+    height: 40px;
+ 
+}
+
+#ziliao1 {
+    margin-top: 15px;
+    /*border-top: solid 2px blue;*/
+    height: 32px;
+}
+
+#kehu {
+    /*border-top: solid 1px blue;*/
+    height: 750px;
+    margin-top: 15px;
+}
+
+    #kehu #kehu_head {
+        /*border-top: solid 1px blue;*/
+        height: 38px;
+        line-height: 15px;
+    }
+
+    #kehu #kehuchaxu {
+        /*border-top: solid 1px blue;*/
+        height: 750px;
+        width: 70%;
+        float: left;
+    }
+
+        #kehu #kehuchaxu #kehuchaxu_xinxi {
+            /*border-top: solid 1px blue;*/
+            height: 38px;
+        }
+
+        #kehu #kehuchaxu #kehuchaxu_neirong {
+            border-top: solid 2px blue;
+            height: 80px;
+        }
+      
+        #kehu #kehuchaxu #wlchaxu_neirong {
+            margin-top: 10px;
+            border-top: solid 2px blue;
+            height: 620px;
+        }
+
+    #kehu #wuliaoxinxi {
+        border-top: solid 2px blue;
+        height: 189px;
+        width: 29%;
+        float: right;
+    }
+
+    #kehu #wuliaojilu {
+        margin-top: 10px;
+        border-top: solid 2px blue;
+        height: 550px;
+        width: 29%;
+        float: right;
+      
+    }

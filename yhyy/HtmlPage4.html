@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="1JS/jquery-1.10.2.min.js"></script>
+    <script src="1JS/jquery-easyui-1.4.3/jquery.easyui.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#table1 td").click(function () {
+                var tdSeq = $(this).parent().find("td").index($(this)[0]);
+                var trSeq = $(this).parent().parent().find("tr").index($(this).parent()[0]);
+                var sValue = $("#table1").find("tr").eq(trSeq).find("td").eq(1).text();
+
+                //alert("第" + (trSeq + 1) + "行，第" + (tdSeq + 1) + "列");
+                alert(sValue);
+            });           
+        });
+    //function SetTable() {
+
+    //    $("#myTab table").each(function () {
+
+    //        var sValue = $(this).find("tr").eq(0).find("td").eq(1).html();
+
+    //        alert(sValue);
+
+    //    });
+    </script>
+
+</head>
+<body>
+    <input type="button" value="111" id="mytext" onclick='SetTable()'>
+    <input type="button" value="222" id="mytext1" onclick="tablebtn()" />
+    <input type="text" />
+    <div id="myTab">
+
+        <table width="60%" id="table1" border="1px">
+
+            <tr>
+
+                <td id="td1">5</td>
+
+                <td id="td2">6</td>
+
+            </tr>
+
+            <tr>
+
+                <td>7</td>
+
+                <td>8</td>
+
+            </tr>
+
+        </table>
+        <hr />
+        <table width="60%" border="1px">
+
+            <tr>
+
+                <td id="td1">1</td>
+
+                <td id="td2">2</td>
+
+            </tr>
+
+            <tr>
+
+                <td>3</td>
+
+                <td>4</td>
+
+            </tr>
+
+        </table>
+
+    </div>
+</body>
+</html>

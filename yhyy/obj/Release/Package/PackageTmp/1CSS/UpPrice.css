@@ -1,0 +1,27 @@
+﻿body {
+    font-family: "微软雅黑";
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 15px;
+}
+#rad{
+    text-align:center;
+    font-size:18px;
+}
+#mailwl{
+    margin-top:10px;
+}
+.current {
+    background: #CCCCCC;
+    color: #0000FF;
+    cursor: pointer;
+}
+td{
+    text-align:center;
+}
+#btnshow{
+   background-color:yellow;
+}

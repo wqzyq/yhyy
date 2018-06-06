@@ -1,0 +1,19 @@
+﻿*{
+    font-size:30px;
+}
+body {
+    font-family: "微软雅黑";
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 15px;
+}
+td{
+    text-align:center;
+}
+.cb{
+     width:30px;
+     height:30px;
+}

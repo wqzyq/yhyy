@@ -1,0 +1,40 @@
+﻿body {
+}
+
+.current {
+    background: #CCCCCC;
+    color: #0000FF;
+    cursor: pointer;
+}
+
+#txtTitle {
+    width: 480px;
+    height: 35px;
+    float: left;
+}
+
+#btnSel {
+    /*float:left;*/
+}
+
+    #btnSel a {
+        width: 100px;
+        height: 38px;
+        background-color: #0094ff;
+        display: block;
+        color: #fff;
+        text-align: center;
+        line-height: 38px;
+    }
+
+#searchbox {
+    width: 545px;
+    height: 38px;
+}
+
+#dtitles {
+    width: 540px;
+    height: 90px;
+    border: solid 1px #ccc;
+    margin-top: 60px;
+}

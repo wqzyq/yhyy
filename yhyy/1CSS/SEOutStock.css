@@ -1,0 +1,51 @@
+﻿body {
+    font-family: "微软雅黑";
+}
+
+#head {
+    height: 45px;
+    border-bottom: solid 2px blue;
+    line-height: 45px;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    margin-left: 15px;
+}
+
+.css1 {
+    border: solid 1px red;
+}
+
+
+
+#main1 {
+    margin-top:10px;
+    /*height: 45px;
+    border-bottom: solid 2px blue;
+    line-height: 45px;*/
+}
+
+#main_wuliao {
+    margin-top: 10px;
+}
+
+.current {
+    background: #CCCCCC;
+    color: #0000FF;
+    cursor: pointer;
+}
+
+.col-md-2 {
+    text-align: center;  
+}
+
+#FbillNo_dj {
+    width: 50px;
+    height: 30px;
+}
+
+table tr td {
+    text-align: center;
+}

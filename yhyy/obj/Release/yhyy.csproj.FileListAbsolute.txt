@@ -1,0 +1,6 @@
+D:\1VS\yhyy\yhyy\bin\yhyy.dll.config
+D:\1VS\yhyy\yhyy\bin\yhyy.dll
+D:\1VS\yhyy\yhyy\bin\yhyy.pdb
+D:\1VS\yhyy\yhyy\obj\Release\yhyy.dll
+D:\1VS\yhyy\yhyy\obj\Release\yhyy.pdb
+D:\1VS\yhyy\yhyy\obj\Release\yhyy.csprojResolveAssemblyReference.cache

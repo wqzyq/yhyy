@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>广东绿恒发货通知单</title>
+    <link href="1CSS/SEOutStock.css" rel="stylesheet" />
+    <link href="1JS/bootstrap-3.3.5/bootstrap-3.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="1JS/jquery-1.10.2.min.js"></script>
+    <script src="1JS/My97DatePicker/WdatePicker.js"></script>
+    <script src="1JS/bootstrap-3.3.5/bootstrap-3.3.5/dist/js/bootstrap.min.js"></script>
+    <script src="1JS/layer/layer.js"></script>
+    <script src="1JS/jquery-1.10.2.min.js"></script>
+    <script src="1JS/SEOutStock1.js"></script>
+    <script src="1JS/SEOutStock2.js"></script>
+</head>
+<body>
+    <div id="head" class="row">
+        <div class="col-md-2 hei1"><input id="btndj" type="button" class="btn btn-primary" value="单据新增" /></div>
+        <div class="col-md-2 hei1">单据编号:<input id="FbillNo_dj" type="text" value="" size="15" disabled="disabled" /></div>
+        <div class="col-md-2 hei1"><input id="btnk3bc" type="button"  m value="保存K3" /></div>
+        <div class="col-md-2 hei1"></div>
+        <div class="col-md-2 hei1"></div>
+        <div class="col-md-2 hei1"></div>
+    </div>
+    <div id="main1" class="row">
+        <div id="main_kehu" class="col-md-12">
+            <ul>
+                <li>客户:<input id="txtkehu" type="text" autocomplete="off" style="width:60px"></li>
+                <li>代码:<input id="txtkehuFNumber" type="text" disabled="disabled" style="width:90px"></li>
+                <li>名称:<input id="txtkehuName" type="text" disabled="disabled" style="width:120px"></li>
+                <li>电话:<input id="txtkehuPhone" type="text" disabled="disabled" style="width:100px"></li>
+                <li>内码:<input id="txtkehudjrm" type="text" disabled="disabled" style="width:60px"></li>
+                <li>等级:<input id="txtkehuDengji" type="text" disabled="disabled" style="width:40px"></li>
+                <li>业务:<input id="txtywy" type="text" disabled="disabled" style="width:60px"></li>
+                <li>备注:<input id="txtbz" type="text"  style="width:60px"></li>
+                <li>制单:<input id="txtzhidan" type="text" disabled="disabled" value="李桂梅" style="width:60px"></li>
+            </ul>
+        </div>      
+        <div id="kehu_neirong">        </div>
+        </div>
+    <div id="main2" class="row">
+        <div id="main_wuliao" class="col-md-12">
+            <ul>
+                <li>物料:<input id="txtwuliao" type="text" autocomplete="off" style="width:120px"></li>   
+                <li>名称:<input id="txtFName_xx" type="text" disabled="disabled" style="width:120px"></li>
+                <li>规格:<input id="txtFModel_xx" type="text" disabled="disabled" style="width:120px"></li>
+                <li>等级:<input id="txtdengji_xx" type="text" disabled="disabled" style="width:120px"></li>
+                <li>单位:<input id="txtdanwei_xx" type="text" disabled="disabled" style="width:120px"></li>
+                <li>批号:<input id="txtpihao_xx" type="text" disabled="disabled" style="width:120px"></li>
+                <li>产地:<input id="txtchandi_xx" type="text" disabled="disabled" style="width:120px"></li>
+                <li>数量:<input id="txtAmount_xx" type="text" autocomplete="off" style="width:120px"></li>
+                <li>单价:<input id="txtPrice_xx" type="text" disabled="disabled" style="width:120px"></li>
+                <li>金额:<input id="txtTotal_xx" type="text" disabled="disabled" style="width:120px"></li>
+                <li>代码:<input id="txtFNumber_xx" type="text" disabled="disabled" style="width:120px"></li>
+            </ul>
+        </div>
+        <div id="wuliao_neirong"></div>
+        <div class="row">
+            <div id="main_xjneirong" class="col-md-8"></div>
+            <div id="main_jgneirong" class="col-md-4"></div>
+        </div>
+    </div>
+    <div id="foot" class="row"></div>
+</body>
+</html>
